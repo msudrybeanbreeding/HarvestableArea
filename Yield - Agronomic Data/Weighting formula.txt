@@ -1,7 +1,0 @@
-0.99322044
-
-=1-((1-U2)*0.5)
-for weighted average
-
-=ifs(MeanHA<0.6, DEFAULT, MEANHA>0.9, DEFAULT, MeanHA, WeightedYield)
-=IFS(0.6>AC2,AB2,0.9<AC2,AB2,AC2,AF2)
